@@ -51,7 +51,7 @@ public class Movement : MonoBehaviour
         else if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             sprinting = false;
-            if (sprinting = false)
+            if (sprinting == false)
             {
                 speed = 8f;
             }
